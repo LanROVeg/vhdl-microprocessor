@@ -1,14 +1,11 @@
-# VHDL microprocessor — work in progress
+# VHDL microprocessor work in progress
 
-ECE 2700 project scaffolding at Weber State University, created in Vivado 2026.1.
-This repository currently contains entity/architecture templates for a microprocessor,
-registers, and memory interface. `micro2` declares an interface but has no implemented
-architecture. The current testbench files are also templates.
+An unfinished ECE 2700 project at Weber State University, started in Vivado 2026.1.
+The files contain interfaces and templates for a processor, registers, a memory
+interface, and their testbenches. The processor behavior and tests are not implemented.
 
-**There is no working processor implementation or passing processor verification yet.**
-The completed combinational exercises are in [ALU-in-VHDL](https://github.com/LanROVeg/ALU-in-VHDL)
-and [4-bit-Adder-in-VHDL](https://github.com/LanROVeg/4-bit-Adder-in-VHDL).
+Next steps are to work from the course specification, test the registers and memory
+interface, then connect the datapath and control logic.
 
-Next work: establish the course specification, implement and verify registers and the
-memory interface independently, then integrate the datapath and control behavior.
-Generated Vivado cache/hardware files are excluded from version control.
+The completed combinational projects are [the ALU](https://github.com/LanROVeg/ALU-in-VHDL)
+and [4-bit adder](https://github.com/LanROVeg/4-bit-Adder-in-VHDL).
